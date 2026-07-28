@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab 2 – Coffee Order Form</title>
+</head>
 
+<body>
+  <h1>Coffee Order Form</h1>
+  <p>Use this form to create your coffee order.</p>
+
+  <form action="https://www.w3schools.com/action_page.php" method="get">
+    <p>
+      <label for="customer-name">Customer Name:</label><br>
+      <input type="text" id="customer-name" name="customer-name">
+    </p>
+
+    <p>
+      <label for="email">Email Address:</label><br>
+      <input type="email" id="email" name="email">
+    </p>
+
+    <p>
+      <label for="coffee-type">Coffee Type:</label><br>
+      <select id="coffee-type" name="coffee-type">
+        <option value="latte">Latte</option>
+        <option value="cappuccino">Cappuccino</option>
+        <option value="americano">Americano</option>
+        <option value="mocha">Mocha</option>
+      </select>
+    </p>
+
+    <p>
+      Size:<br>
+      <input type="radio" id="small" name="size" value="small">
+      <label for="small">Small</label><br>
+
+      <input type="radio" id="medium" name="size" value="medium">
+      <label for="medium">Medium</label><br>
+
+      <input type="radio" id="large" name="size" value="large">
+      <label for="large">Large</label>
+    </p>
+
+    <p>
+      Extras:<br>
+      <input type="checkbox" id="whipped-cream" name="extras" value="whipped-cream">
+      <label for="whipped-cream">Whipped Cream</label><br>
+
+      <input type="checkbox" id="extra-shot" name="extras" value="extra-shot">
+      <label for="extra-shot">Extra Shot</label><br>
+
+      <input type="checkbox" id="almond-milk" name="extras" value="almond-milk">
+      <label for="almond-milk">Almond Milk</label>
+    </p>
+
+    <p>
+      <label for="instructions">Special Instructions:</label><br>
+      <textarea id="instructions" name="instructions" rows="4" cols="40"></textarea>
+    </p>
+
+    <p>
+      <input type="submit" value="Submit Order">
+    </p>
+  </form>
+</body>
+</html>
