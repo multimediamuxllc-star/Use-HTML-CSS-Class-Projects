@@ -1,1 +1,37 @@
+body {
+  background-color: #f4f8fb;
+  font-family: Arial, sans-serif;
+}
 
+h1 {
+  color: #2b5d8a;
+  text-align: center;
+}
+
+p {
+  color: #333333;
+  padding: 10px;
+}
+
+ul li::marker {
+  color: #cc5500;
+}
+
+li {
+  color: #246b3b;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.styled-box {
+  border: 2px solid #555555;
+  background-color: lightgray;
+  padding: 15px;
+  text-align: center;
+}
